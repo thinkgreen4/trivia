@@ -1,0 +1,49 @@
+body{
+	background-image: url('./assets/images/maxresdefault.jpg');
+	background-color: #cccccc;
+	font-family: cursive;
+	font-size: 25px;
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+.btn-primary,.reset{
+	background-color: #ad327a;
+	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 25px;
+	padding: 10px;
+	margin-top: 50px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #ad327a;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: fantasy;
+}
+
+.thisChoice:hover{
+	background-color: #ad327a;
+	color: white;
+	padding: 10px;
+}
+
+
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
